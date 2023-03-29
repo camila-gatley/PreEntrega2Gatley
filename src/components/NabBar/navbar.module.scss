@@ -1,0 +1,15 @@
+.container_nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #8e8ee7;  /* fallback for old browsers */
+    font-family: sans-serif;
+    height: 50px;
+    a{
+        color: black;
+        text-decoration: none;
+        &:hover{
+            color: azure;
+        }
+    }
+}
