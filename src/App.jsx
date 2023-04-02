@@ -6,6 +6,7 @@ import Home from './components/Home';
 import ItemListContainer from './components/ItemListContainer'
 import NavBar from './components/NabBar'
 import CardDetail from './components/CardDetail';
+import ElectronicsCategory from './components/ElectronicsCategory';
 
 const URL_API = "https://fakestoreapi.com/products";
 
@@ -36,6 +37,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/products" element={<ItemListContainer products={products} />} />
         <Route path='/products/:id' element={<CardDetail />} />
+        <Route path="/category/electronics" element={<ElectronicsCategory />} />
+
+
       </Routes>
       
 
